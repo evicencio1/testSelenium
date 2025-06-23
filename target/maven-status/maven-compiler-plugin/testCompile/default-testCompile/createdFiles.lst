@@ -1,0 +1,10 @@
+utilities\WebDriverProvider.class
+utilities\FileManager.class
+listeners\SuiteListeners.class
+principal\NavegacionTest.class
+utilities\BaseTest.class
+principal\AgriTest.class
+listeners\AllureListeners.class
+listeners\TestListeners.class
+listeners\AllureListeners$1.class
+utilities\Logs.class

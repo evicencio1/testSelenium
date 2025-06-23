@@ -1,0 +1,15 @@
+11:49:57.633 INFO  AUTOMATION - Suite iniciada: Default Suite
+11:49:57.635 DEBUG AUTOMATION - Borrando la evidencia anterior
+11:49:57.686 DEBUG AUTOMATION - Inicializando el Driver
+11:49:59.107 DEBUG AUTOMATION - Maximizando la pantalla
+11:49:59.150 DEBUG AUTOMATION - Borrando Cookies
+11:49:59.156 DEBUG AUTOMATION - Asignando driver al WebDriver Provider
+11:49:59.224 INFO  AUTOMATION - Comenzando el test: inicioSesionAgriTest
+11:49:59.322 INFO  AUTOMATION - Test
+11:50:04.333 INFO  AUTOMATION - url: https://demo.agri.cl/
+11:50:07.414 INFO  AUTOMATION - Se ingresa el usuario
+11:50:07.486 INFO  AUTOMATION - Se ingresa la contraseña
+11:50:36.443 DEBUG AUTOMATION - before test stop de allure
+11:50:36.669 INFO  AUTOMATION - Test exitoso: inicioSesionAgriTest
+11:50:36.671 DEBUG AUTOMATION - Matando el padre
+11:50:36.986 INFO  AUTOMATION - Suite finalizada: Default Suite
