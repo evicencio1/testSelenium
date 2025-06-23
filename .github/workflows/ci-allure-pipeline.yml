@@ -40,7 +40,7 @@ jobs:
       # 4. Generar el Reporte de Allure
       # Este paso toma los resultados XML y los convierte en un reporte HTML
       - name: Generar Reporte Allure
-        uses: allure-framework/allure-action@v2
+        uses: allure-framework/allure-action@v1
         with:
           # La carpeta donde 'mvn test' dejó los resultados
           results_path: target/allure-results 
