@@ -1,0 +1,56 @@
+# Nombre del workflow
+name: Pipeline CI con Reportes Allure
+
+# Triggers: se ejecuta en push o PR a la rama main
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+# Permisos necesarios para que el job pueda publicar en GitHub Pages
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Checkout del código
+      - name: Checkout del repositorio
+        uses: actions/checkout@v4
+
+      # 2. Configuración de Java 17 (Corretto)
+      - name: Configurar JDK 17 (Corretto)
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'corretto'
+          cache: 'maven'
+
+      # 3. Ejecutar las pruebas con Maven
+      # Esto generará los resultados en formato XML en la carpeta 'target/allure-results'
+      - name: Ejecutar pruebas y generar resultados Allure
+        run: mvn clean test
+
+      # 4. Generar el Reporte de Allure
+      # Este paso toma los resultados XML y los convierte en un reporte HTML
+      - name: Generar Reporte Allure
+        uses: allure-framework/allure-action@v2
+        with:
+          # La carpeta donde 'mvn test' dejó los resultados
+          results_path: target/allure-results 
+
+      # 5. Desplegar el Reporte a GitHub Pages
+      # Este paso publica el contenido de la carpeta 'allure-report' en una URL pública
+      - name: Deploy a GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          # Token para autenticar la publicación
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          # La carpeta que se va a publicar (generada por el paso anterior)
+          publish_dir: ./allure-report
