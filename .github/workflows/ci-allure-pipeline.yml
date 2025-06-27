@@ -39,18 +39,18 @@ jobs:
 
       # 4. Generar el Reporte de Allure
       # Este paso toma los resultados XML y los convierte en un reporte HTML
-      - name: Generar Reporte Allure
-        uses: allure-framework/allure-action@v2
-        with:
-          # La carpeta donde 'mvn test' dejó los resultados
-          results_path: target/allure-results 
+      #- name: Generar Reporte Allure
+      #  uses: allure-framework/allure-action@v2
+      #  with:
+       #   # La carpeta donde 'mvn test' dejó los resultados
+        #  results_path: target/allure-results 
 
       # 5. Desplegar el Reporte a GitHub Pages
       # Este paso publica el contenido de la carpeta 'allure-report' en una URL pública
-      - name: Deploy a GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
-        with:
+      #- name: Deploy a GitHub Pages
+      #  uses: peaceiris/actions-gh-pages@v4
+      #  with:
           # Token para autenticar la publicación
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+       #   github_token: ${{ secrets.GITHUB_TOKEN }}
           # La carpeta que se va a publicar (generada por el paso anterior)
-          publish_dir: ./allure-report
+        #  publish_dir: ./allure-report
