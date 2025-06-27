@@ -1,0 +1,29 @@
+# Archivos compilados de Java
+*.class
+
+# Logs
+logs/
+*.log
+
+# Archivos generados por Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+
+# Carpetas de IDE
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Reportes de Allure (se generan en el pipeline)
+allure-results/
