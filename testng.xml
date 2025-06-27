@@ -8,8 +8,12 @@
 
     <test name="Pruebas de Regresión">
         <classes>
+            <!-- Clases que ya tenías -->
             <class name="principal.AgriTest"/>
             <class name="principal.RunCucumberTestNG"/>
+
+            <!-- AÑADIMOS LA NUEVA CLASE AQUÍ -->
+            <class name="principal.NavegacionTest"/> 
         </classes>
     </test> 
 </suite>

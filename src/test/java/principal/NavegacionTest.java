@@ -18,7 +18,7 @@ import utilities.Logs;
 
 public class NavegacionTest extends BaseTest{
 
-    @Ignore
+    
     @Test(groups = {regression})
     public void inicioSesionAgriTest(){
         var url = "https://dev-test-agri.herokuapp.com/";
@@ -45,7 +45,7 @@ public class NavegacionTest extends BaseTest{
 
     }
 
-    @Ignore
+    
     @Test(groups = {regression})
     public void abrirMenuTest() throws InterruptedException{
 
@@ -78,7 +78,7 @@ public class NavegacionTest extends BaseTest{
 
     }
 
-    @Ignore
+    
     @Test(groups = {regression})
     public void facturaElectronicaSiiAgriTest() throws InterruptedException{
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
@@ -183,7 +183,7 @@ public class NavegacionTest extends BaseTest{
 
     }
 
-    @Ignore
+    
     @Test(groups = {regression})
     public void notaCreditoSiiAgriTest() throws InterruptedException{
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
@@ -288,7 +288,7 @@ public class NavegacionTest extends BaseTest{
 
     }
 
-    @Ignore
+    
     @Test(groups = {regression})
     public void notaDebitoSiiAgriTest() throws InterruptedException{
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
@@ -393,7 +393,7 @@ public class NavegacionTest extends BaseTest{
 
     }
 
-    @Ignore
+    
     @Test(groups = {regression})
     public void remuneracionSiiAgriTest() throws InterruptedException{
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
