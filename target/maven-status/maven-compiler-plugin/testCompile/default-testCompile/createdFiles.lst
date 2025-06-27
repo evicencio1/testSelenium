@@ -5,6 +5,8 @@ principal\NavegacionTest.class
 utilities\BaseTest.class
 principal\AgriTest.class
 listeners\AllureListeners.class
+steps\FlujoPruebaSteps.class
+principal\RunCucumberTest.class
 listeners\TestListeners.class
 listeners\AllureListeners$1.class
 utilities\Logs.class

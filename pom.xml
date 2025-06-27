@@ -27,6 +27,9 @@
                     <argLine>
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
                     </argLine>
+                    <suiteXMLFiles>
+                        <suiteXmlFile>testng.xml</suiteXmlFile>
+                    </suiteXMLFiles>
                 </configuration>
                 <dependencies>
                     <!-- https://mvnrepository.com/artifact/org.aspectj/aspectjweaver -->
@@ -116,30 +119,30 @@
             <version>1.17.2</version>
         </dependency>
             <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine -->
-        <dependency>
+        <!-- <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
             <version>5.11.0-M2</version>
             <scope>test</scope>
-        </dependency>
+        </dependency>-->
         <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
-        <dependency>
+        <!-- <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
             <version>5.11.0-M2</version>
             <scope>test</scope>
-        </dependency>
+        </dependency>-->
         <!-- https://mvnrepository.com/artifact/org.junit.platform/junit-platform-suite-api -->
-        <dependency>
+        <!--<dependency>
             <groupId>org.junit.platform</groupId>
             <artifactId>junit-platform-suite-api</artifactId>
             <version>1.11.0-M2</version>
             <scope>test</scope>
-        </dependency>
+        </dependency>-->
         <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit-platform-engine -->
         <dependency>
             <groupId>io.cucumber</groupId>
-            <artifactId>cucumber-junit-platform-engine</artifactId>
+            <artifactId>cucumber-testng</artifactId>
             <version>7.18.0</version>
             <scope>test</scope>
         </dependency>
