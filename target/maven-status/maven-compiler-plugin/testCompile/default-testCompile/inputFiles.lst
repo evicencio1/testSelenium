@@ -3,7 +3,7 @@ C:\Users\Lenovo\Desktop\Maven\demo\src\test\java\listeners\SuiteListeners.java
 C:\Users\Lenovo\Desktop\Maven\demo\src\test\java\listeners\TestListeners.java
 C:\Users\Lenovo\Desktop\Maven\demo\src\test\java\principal\AgriTest.java
 C:\Users\Lenovo\Desktop\Maven\demo\src\test\java\principal\NavegacionTest.java
-C:\Users\Lenovo\Desktop\Maven\demo\src\test\java\principal\RunCucumberTest.java
+C:\Users\Lenovo\Desktop\Maven\demo\src\test\java\principal\RunCucumberTestNG.java
 C:\Users\Lenovo\Desktop\Maven\demo\src\test\java\steps\FlujoPruebaSteps.java
 C:\Users\Lenovo\Desktop\Maven\demo\src\test\java\utilities\BaseTest.java
 C:\Users\Lenovo\Desktop\Maven\demo\src\test\java\utilities\FileManager.java

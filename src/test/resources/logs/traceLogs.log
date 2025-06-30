@@ -1,15 +1,101 @@
-11:49:57.633 INFO  AUTOMATION - Suite iniciada: Default Suite
-11:49:57.635 DEBUG AUTOMATION - Borrando la evidencia anterior
-11:49:57.686 DEBUG AUTOMATION - Inicializando el Driver
-11:49:59.107 DEBUG AUTOMATION - Maximizando la pantalla
-11:49:59.150 DEBUG AUTOMATION - Borrando Cookies
-11:49:59.156 DEBUG AUTOMATION - Asignando driver al WebDriver Provider
-11:49:59.224 INFO  AUTOMATION - Comenzando el test: inicioSesionAgriTest
-11:49:59.322 INFO  AUTOMATION - Test
-11:50:04.333 INFO  AUTOMATION - url: https://demo.agri.cl/
-11:50:07.414 INFO  AUTOMATION - Se ingresa el usuario
-11:50:07.486 INFO  AUTOMATION - Se ingresa la contraseÃ±a
-11:50:36.443 DEBUG AUTOMATION - before test stop de allure
-11:50:36.669 INFO  AUTOMATION - Test exitoso: inicioSesionAgriTest
-11:50:36.671 DEBUG AUTOMATION - Matando el padre
-11:50:36.986 INFO  AUTOMATION - Suite finalizada: Default Suite
+10:36:10.124 INFO  AUTOMATION - Suite iniciada: Surefire suite
+10:36:10.197 DEBUG AUTOMATION - Borrando la evidencia anterior
+10:36:10.275 DEBUG AUTOMATION - before test stop de allure
+10:36:10.418 DEBUG AUTOMATION - before test stop de allure
+10:36:10.540 DEBUG AUTOMATION - Inicializando el Driver
+10:36:12.614 DEBUG AUTOMATION - Maximizando la pantalla
+10:36:12.656 DEBUG AUTOMATION - Borrando Cookies
+10:36:12.664 DEBUG AUTOMATION - Asignando driver al WebDriver Provider
+10:36:12.691 INFO  AUTOMATION - Comenzando el test: abrirMenuTest
+10:36:12.744 INFO  AUTOMATION - Test
+10:36:17.771 INFO  AUTOMATION - url: https://dev-test-agri.herokuapp.com/
+10:36:20.854 INFO  AUTOMATION - Se ingresa el usuario
+10:36:20.908 INFO  AUTOMATION - Se ingresa la contraseña
+10:36:31.348 DEBUG AUTOMATION - before test stop de allure
+10:36:31.505 INFO  AUTOMATION - Test exitoso: abrirMenuTest
+10:36:31.508 DEBUG AUTOMATION - Matando el padre
+10:36:31.773 DEBUG AUTOMATION - Inicializando el Driver
+10:36:32.784 DEBUG AUTOMATION - Maximizando la pantalla
+10:36:32.821 DEBUG AUTOMATION - Borrando Cookies
+10:36:32.829 DEBUG AUTOMATION - Asignando driver al WebDriver Provider
+10:36:32.831 INFO  AUTOMATION - Comenzando el test: facturaElectronicaSiiAgriTest
+10:36:32.839 INFO  AUTOMATION - Test
+10:36:37.769 INFO  AUTOMATION - url: https://dev-test-agri.herokuapp.com/
+10:36:40.871 INFO  AUTOMATION - Se ingresa el usuario
+10:36:40.924 INFO  AUTOMATION - Se ingresa la contraseña
+10:37:25.337 DEBUG AUTOMATION - before test stop de allure
+10:37:25.763 INFO  AUTOMATION - Test fallido: facturaElectronicaSiiAgriTest
+10:37:25.763 DEBUG AUTOMATION - Tomando Screenshot
+10:37:25.935 DEBUG AUTOMATION - Tomando page source
+10:37:25.935 DEBUG AUTOMATION - Creando directorios padres si es que no existen
+10:37:25.980 DEBUG AUTOMATION - Matando el padre
+10:37:26.185 DEBUG AUTOMATION - Inicializando el Driver
+10:37:27.211 DEBUG AUTOMATION - Maximizando la pantalla
+10:37:27.255 DEBUG AUTOMATION - Borrando Cookies
+10:37:27.262 DEBUG AUTOMATION - Asignando driver al WebDriver Provider
+10:37:27.263 INFO  AUTOMATION - Comenzando el test: ganaderiaAgriTest
+10:37:27.272 INFO  AUTOMATION - Test
+10:37:31.967 INFO  AUTOMATION - url: https://dev-test-agri.herokuapp.com/
+10:37:35.041 INFO  AUTOMATION - Se ingresa el usuario
+10:37:35.092 INFO  AUTOMATION - Se ingresa la contraseña
+10:38:05.822 DEBUG AUTOMATION - before test stop de allure
+10:38:05.957 INFO  AUTOMATION - Test exitoso: ganaderiaAgriTest
+10:38:05.959 DEBUG AUTOMATION - Matando el padre
+10:38:06.136 DEBUG AUTOMATION - Inicializando el Driver
+10:38:07.206 DEBUG AUTOMATION - Maximizando la pantalla
+10:38:07.240 DEBUG AUTOMATION - Borrando Cookies
+10:38:07.246 DEBUG AUTOMATION - Asignando driver al WebDriver Provider
+10:38:07.248 INFO  AUTOMATION - Comenzando el test: inicioSesionAgriTest
+10:38:07.254 INFO  AUTOMATION - Test
+10:38:11.817 INFO  AUTOMATION - url: https://dev-test-agri.herokuapp.com/
+10:38:14.898 INFO  AUTOMATION - Se ingresa el usuario
+10:38:14.951 INFO  AUTOMATION - Se ingresa la contraseña
+10:38:20.021 DEBUG AUTOMATION - before test stop de allure
+10:38:20.140 INFO  AUTOMATION - Test exitoso: inicioSesionAgriTest
+10:38:20.141 DEBUG AUTOMATION - Matando el padre
+10:38:20.261 DEBUG AUTOMATION - Inicializando el Driver
+10:38:21.232 DEBUG AUTOMATION - Maximizando la pantalla
+10:38:21.268 DEBUG AUTOMATION - Borrando Cookies
+10:38:21.278 DEBUG AUTOMATION - Asignando driver al WebDriver Provider
+10:38:21.279 INFO  AUTOMATION - Comenzando el test: notaCreditoSiiAgriTest
+10:38:21.282 INFO  AUTOMATION - Test
+10:38:26.145 INFO  AUTOMATION - url: https://dev-test-agri.herokuapp.com/
+10:38:29.219 INFO  AUTOMATION - Se ingresa el usuario
+10:38:29.269 INFO  AUTOMATION - Se ingresa la contraseña
+10:39:13.520 DEBUG AUTOMATION - before test stop de allure
+10:39:13.693 INFO  AUTOMATION - Test fallido: notaCreditoSiiAgriTest
+10:39:13.693 DEBUG AUTOMATION - Tomando Screenshot
+10:39:13.833 DEBUG AUTOMATION - Tomando page source
+10:39:13.833 DEBUG AUTOMATION - Creando directorios padres si es que no existen
+10:39:13.834 DEBUG AUTOMATION - Matando el padre
+10:39:14.016 DEBUG AUTOMATION - Inicializando el Driver
+10:39:15.069 DEBUG AUTOMATION - Maximizando la pantalla
+10:39:15.107 DEBUG AUTOMATION - Borrando Cookies
+10:39:15.117 DEBUG AUTOMATION - Asignando driver al WebDriver Provider
+10:39:15.120 INFO  AUTOMATION - Comenzando el test: notaDebitoSiiAgriTest
+10:39:15.122 INFO  AUTOMATION - Test
+10:39:20.090 INFO  AUTOMATION - url: https://dev-test-agri.herokuapp.com/
+10:39:23.170 INFO  AUTOMATION - Se ingresa el usuario
+10:39:23.222 INFO  AUTOMATION - Se ingresa la contraseña
+10:40:05.184 DEBUG AUTOMATION - before test stop de allure
+10:40:05.346 INFO  AUTOMATION - Test fallido: notaDebitoSiiAgriTest
+10:40:05.346 DEBUG AUTOMATION - Tomando Screenshot
+10:40:05.487 DEBUG AUTOMATION - Tomando page source
+10:40:05.488 DEBUG AUTOMATION - Creando directorios padres si es que no existen
+10:40:05.488 DEBUG AUTOMATION - Matando el padre
+10:40:05.683 DEBUG AUTOMATION - Inicializando el Driver
+10:40:06.951 DEBUG AUTOMATION - Maximizando la pantalla
+10:40:07.028 DEBUG AUTOMATION - Borrando Cookies
+10:40:07.046 DEBUG AUTOMATION - Asignando driver al WebDriver Provider
+10:40:07.048 INFO  AUTOMATION - Comenzando el test: remuneracionSiiAgriTest
+10:40:07.055 INFO  AUTOMATION - Test
+10:40:12.827 INFO  AUTOMATION - url: https://dev-test-agri.herokuapp.com/
+10:40:15.911 INFO  AUTOMATION - Se ingresa el usuario
+10:40:15.960 INFO  AUTOMATION - Se ingresa la contraseña
+10:40:50.234 DEBUG AUTOMATION - before test stop de allure
+10:40:50.422 INFO  AUTOMATION - Test fallido: remuneracionSiiAgriTest
+10:40:50.422 DEBUG AUTOMATION - Tomando Screenshot
+10:40:50.584 DEBUG AUTOMATION - Tomando page source
+10:40:50.584 DEBUG AUTOMATION - Creando directorios padres si es que no existen
+10:40:50.586 DEBUG AUTOMATION - Matando el padre
+10:40:50.824 INFO  AUTOMATION - Suite finalizada: Surefire suite

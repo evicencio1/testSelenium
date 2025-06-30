@@ -9,7 +9,6 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 
 import utilities.BaseTest;
@@ -498,6 +497,78 @@ public class NavegacionTest extends BaseTest{
         softAssert.assertAll();
 
         sleep(3000);
+    }
+
+    @Test(groups = {regression})
+    public void ganaderiaAgriTest() throws InterruptedException{
+        //WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+        var url = "https://dev-test-agri.herokuapp.com/";
+        var urlSettings = "https://dev-test-agri.herokuapp.com/register";
+        var urlBack = "https://dev-test-agri.herokuapp.com/invoices";
+        var currentUrl = driver.getCurrentUrl();
+
+        FileManager.logMessage("Agri Ganaderia");
+        FileManager.logMessage("Menu opcion Cabezas");
+
+        Logs.info("Test");
+        driver.get(url);
+        Logs.info("url: %s",url);
+           
+        sleep(3000);
+
+        driver.findElement(By.id("user_email")).sendKeys("asistencia@agri.so");
+        Logs.info("Se ingresa el usuario");
+
+        driver.findElement(By.id("user_password")).sendKeys("d644cb1c7#T");
+        Logs.info("Se ingresa la contraseña");
+
+        //driver.findElement(By.className("btn btn-primary mb-2")).click();
+        driver.findElement(By.cssSelector(".btn.btn-primary.login-button")).click();
+
+        sleep(5000);
+
+        driver.get(urlSettings);
+
+        sleep(3000);
+
+        driver.findElement(By.id("demo-simple-select")).click();
+
+        sleep(3000);
+
+        driver.findElement(By.cssSelector("li[data-value='cl']")).click();
+
+        sleep(3000);
+
+        driver.get(urlBack);
+
+        sleep(3000);
+
+        
+        driver.findElement(By.className("MuiIconButton-label")).click();
+
+        sleep(3000);
+
+        
+        WebElement menuGanaderia = driver.findElement(By.xpath("//span[normalize-space()='Ganadería']"));
+
+        menuGanaderia.click();
+
+        sleep(3000);
+
+        WebElement opcionCabezas = driver.findElement(By.xpath("//span[text()='Cabezas']"));
+
+        opcionCabezas.click();
+
+        sleep(3000);
+
+        var urlGanaderia = "https://dev-test-agri.herokuapp.com/livestocks";
+
+        currentUrl = driver.getCurrentUrl();
+
+        Assert.assertEquals(currentUrl, urlGanaderia);        
+        sleep(3000);
+
+
     }
 
 }
