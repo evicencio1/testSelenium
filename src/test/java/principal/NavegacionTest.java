@@ -568,6 +568,7 @@ public class NavegacionTest extends BaseTest{
         Assert.assertEquals(currentUrl, urlGanaderia);        
         sleep(3000);
 
+        sleep(3000);
 
     }
 
